@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>CHERISH ✧ mystical girlgroup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    :root {
+      --rosa: #f6c1d1;
+      --azul: #cfe6f3;
+      --branco: #ffffff;
+      --verde: #dcebd8;
+      --marrom: #e6d6c9;
+      --texto: #5a4a4a;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Georgia", serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, var(--azul), var(--rosa));
+      color: var(--texto);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 4px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+
+    section {
+      background: var(--branco);
+      margin: 30px auto;
+      padding: 30px;
+      max-width: 900px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .criaturas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--verde), var(--marrom));
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card span {
+      font-size: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>CHERISH</h1>
+    <p>soft mystical girlgroup ✧ creatures of light</p>
+  </header>
+
+  <section>
+    <h2>✧ CONCEITO ✧</h2>
+    <p style="text-align:center;">
+      Um universo delicado onde criaturas místicas representam emoções, natureza  
+      e sonhos. Cada integrante carrega uma essência única — pastel, etérea e eterna.
+    </p>
+  </section>
+
+  <section>
+    <h2>✧ CRIATURAS ✧</h2>
+    <div class="criaturas">
+      <div class="card"><span>🧚‍♀️</span><p>Fada</p></div>
+      <div class="card"><span>🧜‍♀️</span><p>Sereia</p></div>
+      <div class="card"><span>🦢</span><p>Ave Etérea</p></div>
+      <div class="card"><span>🌸</span><p>Ninfa das Flores</p></div>
+      <div class="card"><span>🌿</span><p>Dríade</p></div>
+      <div class="card"><span>🐇</span><p>Coelho Lunar</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>✧ JOGO DE CARTAS ✧</h2>
+    <p style="text-align:center;">
+      Encontre os pares corretos das criaturas.<br>
+      Quanto mais acertos, mais pontos.<br><br>
+      ✧ Quem ganha recebe um card aleatório de uma integrante ✧
+    </p>
+  </section>
+
+  <footer>
+    © CHERISH — mystical softness forever ✧
+  </footer>
+
+</body>
+</html>
